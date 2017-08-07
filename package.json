@@ -5,13 +5,15 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node bot.js"
+    "dev": "node bot.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "async": "^2.5.0",
-    "node-rest-client": "^3.1.0",
+    "base64-img": "^1.0.3",
+    "google-spreadsheet": "^2.0.4",
+    "lodash": "^4.17.4",
     "twit": "^2.2.9"
   }
 }

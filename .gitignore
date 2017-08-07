@@ -11,3 +11,6 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 *.log
+
+client_secret.json
+privatekey.txt
