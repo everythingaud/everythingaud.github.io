@@ -1,0 +1,11 @@
+# dotenv environment variables file
+env.sh
+client_secret.json
+
+
+# Dependency directories
+node_modules/
+
+*.log
+npm-debug.log*
+*.log
