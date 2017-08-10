@@ -1,0 +1,15 @@
+body {
+ background-color: #545454;
+ color: #FFFFFF;
+}
+
+h1 {
+ color: #FFFFFF;
+ text-align: center;
+ font: italic 200% fantasy;
+}
+
+p {
+ color: #FFFFFF;
+ text-align: right;
+}
