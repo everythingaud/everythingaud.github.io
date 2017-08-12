@@ -66,14 +66,14 @@ p {
 
 @import url(https://fonts.googleapis.com/css?family=Lato);
 
-a {
+.right a {
   position: relative;
   display: inline-block;
   cursor: pointer;
   padding:20px;
 }
 
-a:before, a:after {
+.right a:before, .right a:after {
   content: '';
   position: absolute;
   width: 0%;
@@ -83,23 +83,52 @@ a:before, a:after {
   background: #83B6DE;
 }
 
-a:before {
+.right a:before {
   left: -2.5px;
 }
-a:after {
+
+.right a:after {
   right: 2.5px;
   background: #8CC6FF;
   transition: width 0.8s cubic-bezier(0.22, 0.61, 0.36, 1);
 }
 
-a:hover:before {
+.right a:hover:before {
   background: #FFFF8C;
   width: 100%;
   transition: width 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
 }
 
-a:hover:after {
+.right a:hover:after {
   background: transparent;
   width: 100%;
   transition: 0s;
+}
+
+.social {
+  color: #939393;
+  font-size: 20px;
+  padding: 18px;
+}
+
+#social a .fa-twitter:hover {
+  color: #3EAAF4;
+}
+
+#social a .fa-medium:hover {
+  color: #0BE370;
+}
+
+#social a .fa-linkedin:hover {
+  color: #0077B5;
+}
+
+#social a .fa-github:hover {
+  color: #57297A;
+}
+
+@media (max-width: 400px) {
+    .flex {
+        flex-direction: column;
+    }
 }
