@@ -8,7 +8,7 @@ body {
 
 h3 {
  text-align: center;
- font-family:'Cutive Mono', monospace;
+ font-family: monospace;
 }
 
 a {
@@ -28,7 +28,7 @@ p {
 
 .left {
   flex: 1;
-  background-color: #FFFFF;
+  background-color: #EDF0F2;
   height: 100%;
   width: 100%;
   display: flex;
@@ -39,7 +39,7 @@ p {
 
 .right {
   flex: 1;
-  background-color: #B5D9F4;
+  background-color: #C3E3FB;
   height: 100%;
   width: 100%;
   display: flex;
@@ -111,24 +111,23 @@ p {
   padding: 18px;
 }
 
+
 #social a .fa-twitter:hover {
   color: #3EAAF4;
+  transition: 0.5s;
 }
 
 #social a .fa-medium:hover {
   color: #0BE370;
+  transition: 0.5s;
 }
 
 #social a .fa-linkedin:hover {
   color: #0077B5;
+  transition: 0.5s;
 }
 
 #social a .fa-github:hover {
   color: #57297A;
-}
-
-@media (max-width: 400px) {
-    .flex {
-        flex-direction: column;
-    }
+  transition: 0.5s;
 }
