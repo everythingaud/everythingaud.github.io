@@ -1,0 +1,18 @@
+
+.fullscreen {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  position: relative;
+
+  @include media("<tablet") {
+    height: auto;
+    padding-top: ms(6);
+    padding-bottom: ms(5);
+  }
+
+  a.btn {
+    margin-top: ms(2);
+  }
+}

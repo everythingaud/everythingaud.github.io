@@ -1,0 +1,30 @@
+{
+  "name": "emergence.js",
+  "version": "1.1.2",
+  "description": "Detect element visibility in the browser",
+  "author": "@xtianmiller",
+  "license": "MIT",
+  "homepage": "https://github.com/xtianmiller/emergence.js",
+  "main": "src/emergence.js",
+  "moduleType": [],
+  "keywords": [
+    "viewport",
+    "visibility",
+    "reveal",
+    "animation",
+    "scroll",
+    "element"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "npm-debug.log",
+    "package-lock.json"
+  ],
+  "authors": [
+    "Christian Miller <contact@xtianmiller.com>"
+  ]
+}
