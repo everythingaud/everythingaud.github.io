@@ -46,10 +46,6 @@ nav ul li a:hover {
 }
 
 
-/*.emoji {
-  font-size: 5em;
-}*/
-
 .link {
   display: flex;
   justify-content: center;
@@ -115,8 +111,6 @@ nav ul li a:hover {
 	z-index:99;
   font-family: 'Lato', sans-serif;
   text-transform: uppercase;
-
-
 }
 
 .wrap {
@@ -130,7 +124,7 @@ nav ul li a:hover {
 
 
 .wrap ul.wrap-nav {
-	border-bottom:1px solid #575757;
+	/*border-bottom:1px solid #575757;*/
 	padding:240px 0px 0px;
 }
 

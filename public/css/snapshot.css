@@ -112,7 +112,7 @@ p {
   float: left;
   position: relative;
   font-size: 250%;
-  transition: transform 400ms cubic-bezier(0.8, 0, 0, 0.8);
+  transition: transform 300ms cubic-bezier(0.8, 0, 0, 0.8);
 }
 
 .circle[data-emergence=hidden] {
@@ -241,6 +241,17 @@ p {
 .circle.c24 {
   background-color: #eda4db;
   transition-delay: 0.2s;
+}
+
+img {
+  width: inherit;
+  height: inherit;
+}
+
+.vert {
+  height: 100%;
+  width: 66.2%;
+  margin-top: 21.4px;
 }
 
 .circle__inner {
