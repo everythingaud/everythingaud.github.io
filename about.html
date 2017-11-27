@@ -7,100 +7,77 @@
   everythingaud,bc audrey,boston college audrey setiadarma,indonesia,jakarta,horizons">
   <link rel="shortcut icon" type="image/x-icon" href="assets/icons/favicon.ico" />
 
-  <link href="https://fonts.googleapis.com/css?family=Cutive+Mono|Open+Sans|Montserrat" rel="stylesheet">
-  <link href='https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900' rel='stylesheet' type='text/css'>
+  <!-- FONTS -->
+  <link href="https://fonts.googleapis.com/css?family=Cutive+Mono|Open+Sans:500|Montserrat|Cormorant:400,600,700" rel="stylesheet">
 
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet">
-  <link href="//cdnjs.cloudflare.com/ajax/libs/normalize/3.0.2/normalize.min.css" rel="stylesheet">
-  <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+  <!-- CSS -->
+  <link rel = "stylesheet" type = "text/css" href ="public/css/about2.css" />
 
-  <link rel = "stylesheet" type = "text/css" href ="public/css/about.css" />
+  <!-- CDNs -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
   <link rel="stylesheet" type="text/css" href="public/css/font-awesome-4.7.0/css/font-awesome.css" />
-  <!-- <link rel = "stylesheet" type = "text/css" href ="public/css/nav.css" /> -->
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
 </head>
 
 <body>
 
-  <!-- NAVIGATION  -->
-  <nav>
-    <ul>
-      <li><a href="#"></a></li>
-      <div class="button">
-        <a class="btn-open" href="#"></a>
-      </div
-    </ul>
-  </nav>
+  <section>
 
-  <div class="overlay">
-      <div class="wrap">
-        <ul class="wrap-nav">
+    <!-- SIDEBAR -->
+    <div class="sidebar is-closed">
+      <button class="sidebar-toggle is-closed"><i class="fa fa-plus icon"></i></button>
+      <ul class="sidebar-list">
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./about.html">About</a></li>
+        <li><a href="./construction.html">Projects</a></li>
+        <li><a href="./construction.html">Snapshots</a></li>
+      </ul>
+    </div>
 
-          <!-- COL 1 -->
-          <li>
-            <a href="./about.html">
-                <span class="emoji">💻</span><br />Projects
-            </a>
-          </li>
-          <!-- COL 2 -->
-          <li>
-            <a href="./index.html">
-                <span class="emoji">🏠</span><br />Home
-            </a>
-          </li>
-
-          <!-- COL 3 -->
-          <li>
-            <a href="./snapshot.html">
-                <span class="emoji">📸</span><br />Snapshots
-            </a>
-          </li>
-
-        </ul>
-      </div>
-  </div>
-
-
-    <!-- ABOUT START -->
-    <div class="container">
-
+    <!-- BODY -->
+    <div class="title">
       <img src=".\assets\personal.jpg" alt="Audrey Setiadarma" id="myFace"/>
 
-      <div class="desc">
-
-        <div class="head">
-          <p>Audrey Setiadarma<img src=".\assets\icons\favicon.ico" alt="Audrey Setiadarma" id="icon"/><p/>
-        </div>
-
-          <p>
-            Hello! My name is Audrey (I go by Aud). I grew up in Jakarta, Indonesia and now I'm a student at Boston College studying Economics and Computer Science.
-            I'll be graduating in December 2018 and am currently looking for <b>Summer or Winter software engineering internships</b>.
-            <br /><br />
-            I'm passionate about <b>building things and solving problems</b>. I also spend a lot of time thinking about the intersection between technolgoy, design, social innovation, and business.
-            <br /><br />
-            I'm only kind of interesting but I have a lot interests including <b>2000s pop punk music, travelling, baking, pokemon, shark conservation, and sudoku </b>.
-            <br /><br />
-            Ultimately, <b>I am a work in progress</b>. I am always learning more about the world and about myself everyday. To be honest, that what makes life so fun.
-            <br /><br />
-            Please hit me up at setiadar@bc.edu. I'm sure we can find something to talk about.
-          </p>
 
 
+      <div id="social">
+        <a href="https://twitter.com/everythingauds">
+          <i class="fa fa-twitter social" aria-hidden="true"></i>
+        </a>
+        <a href="https://medium.com/@everythingaud">
+          <i class="fa fa-medium social" aria-hidden="true"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/audreysetiadarma">
+          <i class="fa fa-linkedin social" aria-hidden="true"></i>
+        </a>
+        <a href="https://github.com/everythingaud">
+          <i class="fa fa-github social" aria-hidden="true"></i>
+        </a>
       </div>
 
+      <span class="name">Audrey Setiadarma</span>
+      <p>
+        Hello! I grew up in <b>Indonesia</b> and am currently a student at <b>Boston College</b> studying <b>Economics</b> and <b>Computer Science</b>.
+        I'll be graduating in <b>December 2018</b>.
+        <br /><br />
+        I'm passionate about <b>building things</b> and <b>solving problems</b>. I spend a lot of time thinking about the intersection between technology, design, social innovation, and business.
+        <br /><br />
+        I'm only kind of interesting, but I have <b>a lot</b> of interests (i.e 2000s pop punk music, travelling, Pokemon, and shark conservation).
+        <br /><br />
+        Ultimately, <b>I am a work in progress</b>. I am always learning more about the world and about myself everyday.
+        <br  />
+        <span><a href="./construction.html">Resume</a></span>
+        <span><a href="./construction.html">Timeline</a></span>
+      </p>
 
 
     </div>
+  </section>
 
+  <!-- JAVASCRIPT -->
+  <script src="public/javascript/sidebar.js"></script>
 
-    <!-- JS SCRIPT -->
-    <script
-      src="https://code.jquery.com/jquery-3.2.1.js"
-      integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
-      crossorigin="anonymous">
-    </script>
-
-    <script src="public/javascript/about.js"></script>
-
-  </body>
-  </html>
+</body>
+</html>

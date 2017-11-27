@@ -7,15 +7,37 @@
   everythingaud,bc audrey,boston college audrey setiadarma,indonesia,jakarta,horizons">
   <link rel="shortcut icon" type="image/x-icon" href="assets/icons/favicon.ico" />
 
-  <link href="https://fonts.googleapis.com/css?family=Cutive+Mono|Open+Sans|Montserrat" rel="stylesheet">
-  <link rel = "stylesheet" type = "text/css" href ="public/css/index.css" />
+  <!-- FONTS -->
+  <link href="https://fonts.googleapis.com/css?family=Cutive+Mono|Open+Sans:500|Montserrat|Cormorant:400,600,700" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel = "stylesheet" type = "text/css" href ="public/css/home2.css" />
+
+  <!-- CDNs -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
   <link rel="stylesheet" type="text/css" href="public/css/font-awesome-4.7.0/css/font-awesome.css" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
 </head>
 <body>
-  <div class="flex">
-    <div class="left">
-      <h3 class="">Hello World!</h3>
-      <p>My name is Audrey Setiadarma</p>
+
+
+  <section>
+
+    <!-- SIDEBAR -->
+    <div class="sidebar is-closed">
+      <button class="sidebar-toggle is-closed"><i class="fa fa-plus icon"></i></button>
+      <ul class="sidebar-list">
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./about.html">About</a></li>
+        <li><a href="./construction.html">Projects</a></li>
+        <li><a href="./construction.html">Snapshots</a></li>
+      </ul>
+    </div>
+
+    <!-- BODY -->
+    <div class="title">
 
       <div id="social">
         <a href="https://twitter.com/everythingauds">
@@ -32,29 +54,11 @@
         </a>
       </div>
 
+      <span class="name">Audrey Setiadarma</span>
+      <span>I am a<a target="_blanck">(hopeful) software engineer.</a></span>
     </div>
-
-    <div class="right">
-      <div class="navigation">
-        <a href="./construction.html">
-          <span class="emoji"> 📸 </span> Snapshots
-        </a>
-      </div>
-      <div class="navigation">
-        <a href="./construction.html">
-          <span class="emoji"> 💻 </span> Projects
-        </a>
-      </div>
-      <div class="navigation">
-        <a href="./about.html">
-          <span class="emoji"> 👩🏻‍💻 </span> About Me
-        </a>
-      </div>
-
-
-    </div>
-  </div>
-
+  </section>
+  <script src="public/javascript/sidebar.js"></script>
 
 </body>
 </html>
