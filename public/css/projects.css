@@ -53,6 +53,17 @@ p {
   margin: 0;
 }
 
+.containerEmergence {
+  margin: 0 auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  max-width: 1400px;
+  clear: both;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
 .container {
   margin: 0 auto;
   padding-left: 6%;
@@ -63,7 +74,7 @@ p {
 
 .container:after {
   content: ' ';
-  display: block;
+  /*display: flex;*/
   clear: both;
 }
 
@@ -101,7 +112,8 @@ p {
 }
 
 .circle {
-  width: 31.333333%;
+  width: 470px;
+  height: 180px;
   margin-top: 1%;
   margin-bottom: 1%;
   margin-left: 1%;
@@ -251,7 +263,7 @@ img {
 .vert {
   height: 100%;
   width: 66.2%;
-  margin-top: 21.3px;
+  margin-top: 21.4px;
 }
 
 .circle__inner {
