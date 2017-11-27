@@ -31,7 +31,7 @@ body {
 section .title .social {
   color: #939393;
   font-size: 18px;
-  padding: 10px;
+  padding: 0 10px 10px 10px;
   animation: byBottom 1s ease both;
 }
 
@@ -60,6 +60,43 @@ section .title .social {
 }
 
 
+section .title span a {
+  position: relative;
+  display: inline-block;
+  margin-left: 5rem;
+  text-decoration: none;
+  color: #000;
+  font-size: 15px;
+  font-weight: 500;
+
+  background-image: linear-gradient(to right, rgba(255,223,98,0) 50%, #FFDF62 50%);
+  background-position: -0% 0;
+  background-size: 200% auto;
+  line-height: 1.15em;
+  text-decoration: none;
+  transition: background-position 0.5s ease-out;
+
+
+}
+section .title span a::after {
+  content: "";
+  height: 2px;
+  background-color: #f7ca18;
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  width: 0;
+  animation: linkAfter 0.5s 1s ease both;
+}
+
+section .title span a:hover {
+  color: #000;
+  background-position: -99.99% 0;
+  font-weight: 600;
+
+
+
+}
 section {
   background-color: #fff;
   /*1b1b1b*/
