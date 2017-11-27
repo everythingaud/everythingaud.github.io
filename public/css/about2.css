@@ -9,16 +9,29 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
+#myFace {
+  width: 300px;
+  float: left;
+  margin: 0vh 5vh 5vh 5vh;
+  padding: 2vh 2vh 2vh 2vh;
+  border-style: solid;
+  border-width: 9px;
+  border-color: #f7ca18;
+  animation: byBottom 1s ease both;
+
+}
+
 /*HOVER*/
 ::selection {
   background-color: #f7ca18;
   color: #1b1b1b;
 }
 
+/*SOCIAL ICONS*/
 section .title .social {
   color: #939393;
-  font-size: 20px;
-  padding: 20px;
+  font-size: 18px;
+  padding: 10px;
   animation: byBottom 1s ease both;
 }
 
@@ -59,13 +72,14 @@ section .title {
   width: 100%;
   align-self: center;
   transform: translateY(-50px);
-  margin: 0 auto;
+  /*margin: 4vw 4vw 4vw 4vw;*/
   overflow: hidden;
   padding-bottom: 10px;
+  margin-top: 5vh;
 }
 section .title span {
-  display: inline-block;
-  font-size: 5vw;
+    /*display: inline-block;*/
+  font-size: 2.8vw;
   color: #000;
   width: 100%;
   text-transform: uppercase;
@@ -75,27 +89,26 @@ section .title span {
   letter-spacing: 0.25vw;
   padding-bottom: 10px;
 }
-section .title span:last-child {
+section .title:last-child {
   font-size: 1rem;
   animation: byBottom 1s 0.25s ease both;
 }
-section .title span a {
-  position: relative;
-  display: inline-block;
-  margin-left: 0.5rem;
+
+.name {
+  background-image: linear-gradient(to right, rgba(255,223,98,0) 50%, #FFDF62 50%);
+  background-position: -0% 0;
+  background-size: 200% auto;
+  color: #222;
+  line-height: 1.15em;
   text-decoration: none;
-  color: #f7ca18;
+  transition: background-position 0.5s ease-out;
 }
-section .title span a::after {
-  content: "";
-  height: 2px;
-  background-color: #f7ca18;
-  position: absolute;
-  bottom: -10px;
-  left: 0;
-  width: 0;
-  animation: linkAfter 0.5s 1s ease both;
+.name:hover {
+  background-position: -99.99% 0;
+  font-weight: 600;
 }
+
+/*ANIMATIONS*/
 @-moz-keyframes pop {
   0% {
     transform: translateY(100%);
@@ -191,4 +204,73 @@ section .title span a::after {
   100% {
     width: 30px;
   }
+}
+/*NAVIGATIOn*/
+* {
+  box-sizing: border-box;
+}
+.sidebar-toggle {
+  position: fixed;
+  z-index: 1;
+  border: 4px solid #fff;
+  outline: none;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-left: 23em;
+  margin-top: 1em;
+  background-color: #f7ca18;
+  transform: rotate(45deg);
+  cursor: pointer;
+  transition: 0.5s;
+  animation: byBottom 1s ease both;
+
+}
+.sidebar-toggle.is-closed {
+  transform: translateX(0.3em) rotate(0deg);
+}
+.sidebar-toggle .icon {
+  font-size: 1.5rem;
+  color: #000;
+}
+.sidebar {
+  width: 18em;
+  height: 100vh;
+  background-color: #F3F3F3;
+  transition: 0.7s;
+}
+.sidebar.is-closed {
+  transform: translateX(-16em);
+}
+
+.sidebar-list {
+  color: #000;
+  list-style: none;
+  padding: 30px;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 22px;
+  letter-spacing: 0.2vw;
+
+}
+
+.sidebar-list li {
+  padding: 20px;
+}
+
+
+/*LINK HIGHLIGHT*/
+li a {
+  background-image: linear-gradient(to right, rgba(255,223,98,0) 50%, #FFDF62 50%);
+  background-position: -0% 0;
+  background-size: 200% auto;
+  color: #222;
+  line-height: 1.15em;
+  text-decoration: none;
+  transition: background-position 0.5s ease-out;
+}
+li a:hover {
+  background-position: -99.99% 0;
+  font-weight: 600;
 }
