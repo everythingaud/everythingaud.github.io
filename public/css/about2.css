@@ -260,7 +260,7 @@ section .title:last-child {
   transform: rotate(45deg);
   cursor: pointer;
   transition: 0.5s;
-  animation: byBottom 1s ease both;
+  /*animation: byBottom 1s ease both;*/
 
 }
 .sidebar-toggle.is-closed {
