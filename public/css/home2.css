@@ -49,7 +49,6 @@ section .title .social {
 
 section {
   background-color: #fff;
-  /*1b1b1b*/
   height: 100vh;
   display: flex;
 }
@@ -211,8 +210,9 @@ section .title span a::after {
   cursor: pointer;
   transition: 0.5s;
   /*animation: byBottom 1s ease both;*/
-
 }
+
+
 .sidebar-toggle.is-closed {
   transform: translateX(0.3em) rotate(0deg);
 }
@@ -245,6 +245,15 @@ section .title span a::after {
 .sidebar-list li {
   padding: 20px;
 }
+
+
+
+
+
+.overlay-closed {
+  display:none;
+}
+
 
 
 /*LINK HIGHLIGHT*/

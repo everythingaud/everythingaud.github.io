@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html class="no-js">
 <html>
 <head>
   <title>Audrey Setiadarma</title>
@@ -12,6 +12,8 @@
 
   <!-- CSS -->
   <link rel = "stylesheet" type = "text/css" href ="public/css/home2.css" />
+  <link rel = "stylesheet" type = "text/css" href ="public/css/media-sidebar.css" />
+
 
   <!-- CDNs -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
@@ -22,6 +24,30 @@
 </head>
 <body>
 
+  <a href="#navi" class="navi-trigger overlay-closed">
+		<span class="navi-icon">
+			<svg x="0px" y="0px" width="54px" height="54px" viewBox="0 0 54 54"></svg>
+      <!-- <i class="fa fa-plus icon"></i> -->
+    </span>
+	</a>
+
+	<!-- Hidden Navi Menu -->
+	<div id="navi" class="navi ">
+		<div class="navigation-wrapper">
+			<div class="half-block">
+
+				<nav>
+					<!-- <ul class="primary-navi"> -->
+          <ul class="sidebar-list">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./projects.html">Projects</a></li>
+            <li><a href="./construction.html">Snapshots</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</div>
 
   <section>
 
@@ -38,6 +64,12 @@
         <li><a href="./construction.html">Snapshots</a></li>
       </ul>
     </div>
+
+    <!-- OVERLAY-->
+    <!-- <div class="sidebar is-closed">
+      <button class="sidebar-toggle is-closed"><i class="fa fa-plus icon"></i></button> -->
+
+
 
     <!-- BODY -->
     <div class="title">

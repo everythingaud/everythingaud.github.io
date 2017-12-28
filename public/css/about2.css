@@ -296,6 +296,10 @@ section .title:last-child {
   padding: 20px;
 }
 
+.overlay-closed {
+  display:none;
+}
+
 
 /*LINK HIGHLIGHT*/
 li a {

@@ -1,279 +1,102 @@
-<!DOCTYPE html>
+<!DOCTYPE html class="no-js">
 <html>
 <head>
-  <title>Audrey Setiadarma | Projects</title>
-
-  <!-- SEO -->
+  <title>Audrey Setiadarma</title>
   <meta name="description" content="Audrey Setiadarma - Boston College student, full stack developer. A personal website.">
   <meta name="keywords" content="Audrey Setiadarma,Boston College,Full stack development,SEASA,
   everythingaud,bc audrey,boston college audrey setiadarma,indonesia,jakarta,horizons">
   <link rel="shortcut icon" type="image/x-icon" href="assets/icons/favicon.ico" />
 
   <!-- FONTS -->
-  <link href="https://fonts.googleapis.com/css?family=Cutive+Mono|Open+Sans|Montserrat|Lato" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Cutive+Mono|Open+Sans:500|Montserrat|Cormorant:400,600,700" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel = "stylesheet" type = "text/css" href ="public/css/projects2.css" />
+  <link rel = "stylesheet" type = "text/css" href ="public/css/media-sidebar.css" />
+
+  <!-- CDNs -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
   <link rel="stylesheet" type="text/css" href="public/css/font-awesome-4.7.0/css/font-awesome.css" />
 
-  <!-- CSS LINK -->
-  <link rel = "stylesheet" type = "text/css" href ="public/css/snapshot.css" />
-  <link rel = "stylesheet" type = "text/css" href ="public/css/nav.css" />
-
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
 </head>
 
 <body>
 
-  <!-- NAVIGATION  -->
-  <nav>
-    <ul>
-      <li><a href="#"></a></li>
-      <div class="button">
-        <a class="btn-open" href="#"></a>
-      </div
-    </ul>
-  </nav>
+  <a href="#navi" class="navi-trigger overlay-closed">
+		<span class="navi-icon">
+			<svg x="0px" y="0px" width="54px" height="54px" viewBox="0 0 54 54"></svg>
+      <!-- <i class="fa fa-plus icon"></i> -->
+    </span>
+	</a>
 
-  <div class="overlay">
-      <div class="wrap">
-        <ul class="wrap-nav">
+	<!-- Hidden Navi Menu -->
+	<div id="navi" class="navi ">
+		<div class="navigation-wrapper">
+			<div class="half-block">
 
-          <!-- COL 1 -->
-          <!-- <li><a href="./index.html">Home</a>
-            <ul>
-              <li>
-                <a href=""https://twitter.com/everythingauds"">
-                  <div class="social-icon">
-                    <i class="fa fa-twitter"></i>
-                  </div>
-                </a>
-              </li>
-              <li>
-                <a href="https://medium.com/@everythingaud">
-                  <div class="social-icon">
-                    <i class="fa fa-medium"></i>
-                  </div>
-                </a>
-              </li>
-              <li>
-                <a href="https://www.linkedin.com/in/audreysetiadarma">
-                  <div class="social-icon">
-                    <i class="fa fa-linkedin"></i>
-                  </div>
-                </a>
-              </li>
-              <li>
-                <a href="https://github.com/everythingaud">
-                  <div class="social-icon">
-                    <i class="fa fa-github"></i>
-                  </div>
-                </a>
-              </li>
-            </ul>
-          </li> -->
-          <li>
-            <a href="./about.html">
-                <span class="emoji">💻</span><br />Projects
-            </a>
-          </li>
-          <!-- COL 2 -->
-          <!-- <li><a href="./construction.html">Projects</a>
-            <ul>
-              <li><a href="#">Twitter Bot</a></li>
-              <li><a href="#">Sacha The Scheduler</a></li>
-              <li><a href="#">nodeBook</a></li>
-            </ul>
-          </li> -->
-          <li>
-            <a href="./index.html">
-                <span class="emoji">🏠</span><br />Home
-            </a>
-          </li>
+				<nav>
+					<!-- <ul class="primary-navi"> -->
+          <ul class="sidebar-list">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./projects.html">Projects</a></li>
+            <li><a href="./construction.html">Snapshots</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</div>
 
-          <!-- COL 3 -->
-          <!-- <li><a href="./construction.html">Snapshots</a>
-            <ul>
-              <li><a href="#">Architecture</a></li>
-              <li><a href="#">Travel</a></li>
-              <li><a href="#">Animals</a></li>
-              <li><a href="#">People</a></li>
-            </ul>
-          </li> -->
-          <li>
-            <a href="./about.html">
-                <span class="emoji">👩🏻‍💻‍</span><br />About
-            </a>
-          </li>
+  <section>
 
-        </ul>
-      </div>
+    <!-- SIDEBAR -->
+    <div class="sidebar is-closed">
+      <button class="sidebar-toggle is-closed"><i class="fa fa-plus icon"></i></button>
+      <ul class="sidebar-list">
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./about.html">About</a></li>
+        <li><a href="./projects.html">Projects</a></li>
+        <li><a href="./construction.html">Snapshots</a></li>
+      </ul>
     </div>
 
-  <!-- HEADING -->
-  <div class="fullscreen">
-  <!-- <div> -->
-
-    <div class="container">
-      <!-- TITLE -->
-      <span class="emoji">📸</span><br />
-      <h2>Snapshots</h2>
-
-      <!-- DESCRIPTION -->
-      <p>
-        Sometimes I mess around and take pictures.
-      </p>
-
-      <!-- TAGS -->
-      <div class="tags">
-        <p>Travel</p>
-        <p>//</p>
-        <p>Cities</p>
-        <p>//</p>
-        <p>Home</p>
-        <p>//</p>
-        <p>Animals</p>
-        <p>//</p>
-        <p>Food</p>
-        <p>//</p>
-        <p>All</p>
-      </div>
-    </div>
-  </div>
-
-  <!-- PICTURE EMERGENCE START -->
-  <div class="container container--circles">
-    <div class="circle c1" data-emergence="hidden">
-      <div class="circle__inner">
-
-        <img src="./assets/snaps/v.jpg" class="vert"/>
-      </div>
-    </div>
-    <div class="circle c2" data-emergence="hidden">
-      <div class="circle__inner">
-
-        <img src="./assets/snaps/h.jpg" />
-
-      </div>
-    </div>
-    <div class="circle c3" data-emergence="hidden">
-      <div class="circle__inner">
-        03
-      </div>
-    </div>
-    <div class="circle c4" data-emergence="hidden">
-      <div class="circle__inner">
-        04
-      </div>
-    </div>
-    <div class="circle c5" data-emergence="hidden">
-      <div class="circle__inner">
-        05
-      </div>
-    </div>
-    <div class="circle c6" data-emergence="hidden">
-      <div class="circle__inner">
-        06
-      </div>
-    </div>
-    <div class="circle c7" data-emergence="hidden">
-      <div class="circle__inner">
-        07
-      </div>
-    </div>
-    <div class="circle c8" data-emergence="hidden">
-      <div class="circle__inner">
-        08
-      </div>
-    </div>
-    <div class="circle c9" data-emergence="hidden">
-      <div class="circle__inner">
-        09
-      </div>
-    </div>
-    <div class="circle c10" data-emergence="hidden">
-      <div class="circle__inner">
-        10
-      </div>
-    </div>
-    <div class="circle c11" data-emergence="hidden">
-      <div class="circle__inner">
-        11
-      </div>
-    </div>
-    <div class="circle c12" data-emergence="hidden">
-      <div class="circle__inner">
-        12
-      </div>
-    </div>
-    <div class="circle c13" data-emergence="hidden">
-      <div class="circle__inner">
-        13
-      </div>
-    </div>
-    <div class="circle c14" data-emergence="hidden">
-      <div class="circle__inner">
-        14
-      </div>
-    </div>
-    <div class="circle c15" data-emergence="hidden">
-      <div class="circle__inner">
-        15
-      </div>
-    </div>
-    <div class="circle c16" data-emergence="hidden">
-      <div class="circle__inner">
-        16
-      </div>
-    </div>
-    <div class="circle c17" data-emergence="hidden">
-      <div class="circle__inner">
-        17
-      </div>
-    </div>
-    <div class="circle c18" data-emergence="hidden">
-      <div class="circle__inner">
-        18
-      </div>
-    </div>
-    <div class="circle c19" data-emergence="hidden">
-      <div class="circle__inner">
-        19
-      </div>
-    </div>
-    <div class="circle c20" data-emergence="hidden">
-      <div class="circle__inner">
-        20
-      </div>
-    </div>
-    <div class="circle c21" data-emergence="hidden">
-      <div class="circle__inner">
-        21
-      </div>
-    </div>
-    <div class="circle c22" data-emergence="hidden">
-      <div class="circle__inner">
-        22
-      </div>
-    </div>
-    <div class="circle c23" data-emergence="hidden">
-      <div class="circle__inner">
-        23
-      </div>
-    </div>
-    <div class="circle c24" data-emergence="hidden">
-      <div class="circle__inner">
-        24
-      </div>
-    </div>
-  </div>
+    <!-- BODY -->
+    <div class="title">
 
 
-  <div class="fullscreen">
-    <div class="container">
-      <p>
-        Scroll back up to reset animations.
-      </p>
-    </div>
-  </div>
+      <span class="name">Projects</span>
+      <span><a>Move fast and build things</a></span>
 
+
+
+      <div class="containerEmergence container--circles">
+        <div class="circle c1" data-emergence="hidden">
+          <div class="circle__inner">
+            <img src=".\assets\projects\nodeBook.jpg" alt="Audrey Setiadarma" class="project-card"/>
+          </div>
+        </div>
+        <div class="circle c2" data-emergence="hidden">
+          <div class="circle__inner">
+            <img src=".\assets\projects\twitterBot.jpg" alt="Audrey Setiadarma" class="project-card"/>
+          </div>
+        </div>
+        <div class="circle c3" data-emergence="hidden">
+          <div class="circle__inner">
+            <img src=".\assets\projects\sacha.jpg" alt="Audrey Setiadarma" class="project-card"/>
+          </div>
+        </div>
+        <div class="circle c4" data-emergence="hidden">
+          <div class="circle__inner">
+            <img src=".\assets\projects\popcorn.jpg" alt="Audrey Setiadarma" class="project-card"/>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </section>
 
   <!-- EMERGENCE SCRIPT TAGS-->
   <script src="./assets/emergence.js-master/dist/emergence.min.js"></script>
@@ -288,7 +111,9 @@
     crossorigin="anonymous">
   </script>
 
-  <script src="public/javascript/about.js"></script>
+  <script src="public/javascript/sidebar.js"></script>
+  <script src="public/javascript/projects.js"></script>
+
 
 </body>
 </html>
